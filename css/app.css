@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Smooch+Sans&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 200px;
+    color:#3f413e;
+}
+header{
+    height: 70px;
+    width: 900px;
+    margin: auto;
+    display: flex; /*para poner uno al aldo del otro*/
+    justify-content: space-between; /*espacio entre elementos*/
+    align-items: center; /*centrado vertical*/
+}
+header nav a{
+    text-decoration: none;
+    color: darkslategrey;
+    padding: 10px;
+}
+#brand img{
+    width: 180px;
+}
+main{
+    height: 710px;
+
+}/*index*/
+#iPhoneiPad{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    padding-top: 42px;
+    align-items: center;
+}
+#cajaverde{
+    min-height: 455px;
+    background-color: rgb(198, 231, 211);
+}
+
+#cajaH1{
+    padding: 42px;
+}
+.contenedor{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;/*respeta los anchosde los elementos internos*/
+    justify-content: space-between;
+}
+.contenedor article{
+    width: 250px;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+}
+.contenedor article img{
+            width: 25px;
+}
+.contenedor article p{
+    text-align: justify;
+    margin-top: 10px;
+}
+/*productos*/
+#heroProductos{
+    width: 900px;
+    margin: auto;
+    height: 355px;
+}
+    .prodDestacados{
+        width: 426px;
+        height: 160px;
+        margin: 10px;
+        padding: 50px;
+        padding-left: 50px;
+     
+    }
+    .prodDestacados h2{
+        width: 100%;
+    }
+    .bgImac{
+        /*imagendefondo*/
+        background-image: url(../imgs/imgs/iMac.jpg); /*para poner imagen de fondo*/
+        background-size: 250px;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+    .prodDestacados a{
+        color: #444;
+        text-decoration: none;
+        transition: .3s;
+    }
+    .botVermas{
+        background-color: rgb(241, 250, 245);
+        padding: 10px 20px;
+        border-radius: 18px;
+        display: inline-block;
+    }
+    .botVermas:hover{
+        background-color:rgb(177, 255, 212);
+    }
+    .productos{
+        width: 280px;
+        height: 160px;
+        background-color: blueviolet;
+        padding-top: 25px;
+        margin: 10px;
+    }
+    footer{
+    height: 120px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;/*espacio entre uno y otro*/
+    align-items:center;/*centrado vertical*/
+
+    
+}
+        #social a{
+                padding: 10px;
+        }
+        #social img{
+            width: 30px;
+        }
